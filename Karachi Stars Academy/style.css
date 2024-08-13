@@ -1,0 +1,144 @@
+
+
+
+/*  */
+body {
+    background-color: #f9f9f9;
+  }
+  
+  .navbar {
+    background-color: #1976D2;
+    color: #fff;
+    padding: 10px 0;
+  } 
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976D2; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976D2; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976D2; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-button:hover {
+    background-color: white; 
+    color: black;
+  }
+  .nav-item:hover {
+    color: black;
+    background-color: #fff;
+  }
+  .brand:hover {
+    color: black; 
+    background-color: white;
+  }
+  .line1{
+    margin-top: 5px;
+  }
+  /*  */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+    
+  .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976D2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width:auto;
+  }
+  
+  .btn:hover {
+    background-color: #1565C0;
+  }
+  /*  */
+  .about {
+    background-color: #f9f9f9;
+  }
+  
+  .about .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+   
+  }
+
+  .about h2 {
+    text-align: center;
+    font-size: 28px;
+   
+  } 
+   .about h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+      font-family: 'Open Sans', sans-serif;
+  }
+  .btn:hover
+  {
+    background-color:black;
+    color: white;
+
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="forget.css">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-box">
+            <div class="forgot-container" id="forgot">
+                <div class="top">
+                    <header>Forgot Password</header>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="forgot-email" placeholder="Email">
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="forgot-firstname" placeholder="First Name">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="forgot-lastname" placeholder="Last Name">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Retrieve Password" onclick="retrievePassword()">
+                </div>
+                <div id="forgot-error" class="error"></div>
+                <div id="forgot-success" class="success"></div>
+                <div class="top">
+                    <span>Remember your password? <a href="index.html">Login</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
